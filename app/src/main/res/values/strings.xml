@@ -76,4 +76,6 @@
     <string name="toast_wrongpass">Password Anda Salah</string>
     <string name="logout">Logout</string>
     <string name="logout_desc">Berhasil Logout</string>
+    <string name="Ticket">Ticket</string>
+    <string name="close">Close</string>
 </resources>

@@ -42,7 +42,7 @@
             android:background="@drawable/shape_rectangle_blue_grey"
             android:fontFamily="@font/montserrat_light"
             android:gravity="center"
-            android:text="Tutup"
+            android:text="@string/close"
             android:textColor="@color/colorWhite"
             android:textSize="16sp" />
 
