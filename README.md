@@ -8,8 +8,8 @@ Project pemesanan tiket bioskop secara online berbasis mobile (Android). Dengan 
 4. E - Wallet
 5. QR Code
 
-## Techincal
-1. Firebase
+## Technology
+Firebase
 
 ## UI / UX
 Using Adobe XD
