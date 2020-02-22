@@ -16,6 +16,7 @@ import net.prabowoaz.movapps.mywallet.MyWalletActivity
 import net.prabowoaz.movapps.utils.Preferences
 import net.prabowoaz.movapps.sign.signin.SignInActivity
 import android.R
+import android.provider.Settings
 import android.widget.Toast
 
 
@@ -49,6 +50,11 @@ class SettingFragment : Fragment() {
 
         tv_my_wallet.setOnClickListener {
             val mIntent = Intent(context!!, MyWalletActivity::class.java)
+            startActivity(mIntent)
+        }
+
+        tv_chg_languge.setOnClickListener {
+            val mIntent = Intent(Settings.ACTION_LOCALE_SETTINGS)
             startActivity(mIntent)
         }
 
